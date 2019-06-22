@@ -140,7 +140,7 @@
   <!-- f -->
 
   <!-- ========== CONTACT SECTION ========== -->
-  <!--<section id="contact" name="contact"></section>
+  <section id="contact" name="contact"></section>
   <div id="f">
     <div class="container">
       <div class="row">
@@ -155,7 +155,18 @@
 
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <form action="https://formspree.io/tensigahohoemu@gmail.com" method="POST">
+              <label for="name">お名前 </label><br>
+              <input type="text" name="name" placeholder=asami.yasuda><br><br>
+              <label for="_replyto">Eメール</label><br>
+              <input type="email" name="_replyto" placeholder=email><br><br>
+              <label for="message">お問い合わせ</label><br>
+              <textarea rows="4" cols="25"></textarea><br>
+              <input type="submit" value="Send">
+            </form>
+
+          <!-- <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
             <div class="form-group">
               <label for="contact-name">Your Name</label>
@@ -187,7 +198,8 @@
               <button type="submit" class="btn btn-large">Send Message</button>
             </div>
 
-          </form>
+           </form> -->
+
 
         </div>
       </div>
