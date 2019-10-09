@@ -74,13 +74,13 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-  background: url(../img/sax.jpg) no-repeat center top;
+  background: url(../img/keyboard-829330__340.jpg) no-repeat center top;
   margin-top: -10px;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 700px;
+  min-height: 300px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -94,13 +94,13 @@ hr {
 
 #headerwrap h1 {
   margin-top: 150px;
-  color: white;
+  color: black;
   font-size: 70px;
   font-weight: 700;
 }
 
 #headerwrap h3 {
-  color: white;
+  color: black;
   font-size: 30px;
   font-weight: 100;
   font-family: 'EB Garamond', serif;
@@ -124,13 +124,13 @@ hr {
 
 #f h3 {
   color: white;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 #f i {
-  font-size: 8px;
+  font-size: 20px;
   color: #fff;
   padding: 3px;
 }
@@ -359,7 +359,7 @@ hr {
   content: "";
   display: inline-block;
   border-radius: 50%;
-  width: 24px;
+  width: 20px;
   height: 24px;
   border: 3px solid #18d26e;
   border-top-color: #eee;
